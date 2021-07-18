@@ -7,10 +7,11 @@ Do you run a server which is based on cPanel but don't want to buy a license for
 ```
 cd /root
 ```
-- Clone official [acme repository](https://github.com/acmesh-official/acme.sh) in the root directory
+- Clone official and install [acme repository](https://github.com/acmesh-official/acme.sh) in the root directory
 ```
 git clone https://github.com/acmesh-official/acme.sh.git
 cd ./acme.sh
+./acme.sh --install -m you@somewhere.com
 ```
 - Clone this repository 
 ```
