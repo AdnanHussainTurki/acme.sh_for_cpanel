@@ -5,14 +5,14 @@ Do you run a server which is based on cPanel but don't want to buy a license for
 - Login to your cPanel based server via root or sudoer
 - Change directory to root
 ```
-cd /
+cd /root
 ```
 - Clone official [acme repository](https://github.com/acmesh-official/acme.sh) in the root directory
 ```
 git clone https://github.com/acmesh-official/acme.sh.git
 cd ./acme.sh
 ```
-- Clone this repository in root directory
+- Clone this repository 
 ```
 git clone https://github.com/AdnanHussainTurki/acme.sh_for_cpanel
 ```
